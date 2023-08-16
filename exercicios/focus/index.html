@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de :focus</title>
+    <style>
+        /* Estilo padrão do campo de entrada */
+        input {
+            border: 2px solid #3498db;
+            padding: 5px;
+        }
+
+        /* Estilo quando o campo de entrada está em foco */
+        input:focus {
+            border-color: #e74c3c;
+            box-shadow: 0px 0px 5px #888;
+        }
+    </style>
+</head>
+<body>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" autofocus>
+</body>
+</html>
